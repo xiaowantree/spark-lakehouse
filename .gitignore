@@ -1,0 +1,13 @@
+# macOS 系统文件
+.DS_Store
+**/.DS_Store
+
+# 运行时数据(容器启动后会自动生成,体积大且含本地数据,不提交)
+minio-data/
+pg-data/
+warehouse/
+hive/warehouse/
+
+# 依赖 jar(体积大,GitHub 不允许 >100MB;请用 download-jars.sh 自动下载)
+spark/jars/
+hive/lib/
